@@ -1,10 +1,12 @@
 import './App.css';
-import Contador from './components/Contador'; //Importamos o componente Contador.sjx.
+import Contador from './components/Contador'; //Importamos o componente Contador.jsx.
+import Toggle from './components/Toggle'; //Importamos o componente Toggle.jsx.
 
 function App() {
   return (
     <div className="App">
       <Contador />
+      <Toggle />
     </div>
   );
 }
