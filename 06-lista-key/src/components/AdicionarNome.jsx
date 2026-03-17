@@ -1,6 +1,5 @@
 import {useState} from 'react';
 
-
 function AdicionarUsuario () {
     const [usuarios, setUsuarios] = useState([]); //Estado, usuários é o estado. O setUsuarios é a função que altera o estado, e useState([]) mostra o estado inicial que no nosso exemplo é um array vazio.
     const [digitado, setDigitado] = useState(""); //Estado, digitado é o estado. O setDigitado é a função que altera o estado, e useState("") mostra o estado inicial que no nosso exemplo é uma string vazia, que representa que ainda não mandamos nenhum usuário.
